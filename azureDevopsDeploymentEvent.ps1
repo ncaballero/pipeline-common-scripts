@@ -35,7 +35,7 @@ $REQUEST_BODY=@"
     "ciBackLink" : "$CI_BACKLINK",
     "attachRules" : {
     "entityIds": [
-      "buynnapi"
+      "SERVICE-50E14E4107AB71E3"
     ],
             "tagRule" : [
                 {
