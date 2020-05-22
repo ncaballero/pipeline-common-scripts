@@ -34,6 +34,9 @@ $REQUEST_BODY=@"
     "deploymentProject" : "$DEPLOYMENT_PROJECT" ,
     "ciBackLink" : "$CI_BACKLINK",
     "attachRules" : {
+    "entityIds": [
+      "buynnapi"
+    ],
             "tagRule" : [
                 {
                     "meTypes":"SERVICE" ,
