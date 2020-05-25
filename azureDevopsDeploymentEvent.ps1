@@ -15,6 +15,7 @@ $DYNATRACE_API_TOKEN=$Args[1]
 # adjust the number of tags in the JSON below and tag variables values
 $TAG_VALUE_ENVIRONMENT=$Args[2]
 $TAG_VALUE_SERVICE=$Args[3]
+$TAG_ENTITY_ID=$Args[4]
 
 # set values that are pases as Dyntrace event context
 # you can adjust these as you see fit
@@ -35,7 +36,7 @@ $REQUEST_BODY=@"
     "ciBackLink" : "$CI_BACKLINK",
     "attachRules" : {
     "entityIds": [
-      "SERVICE-50E14E4107AB71E3"
+      "$TAG_ENTITY_ID"
     ],
             "tagRule" : [
                 {
