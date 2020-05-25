@@ -16,7 +16,7 @@ $DYNATRACE_API_TOKEN=$Args[1]
 $TAG_VALUE_ENVIRONMENT=$Args[2]
 $TAG_VALUE_SERVICE=$Args[3]
 
-# set values that are passes as Dyntrace event context
+# set values that are pases as Dyntrace event context
 # you can adjust these as you see fit
 $DEPLOYMENT_PROJECT="Azure DevOps project: $($env:SYSTEM_TEAMPROJECT)"
 $DEPLOYMENT_NAME="$($env:RELEASE_DEFINITIONNAME) $($env:RELEASE_RELEASENAME)"
@@ -35,7 +35,7 @@ $REQUEST_BODY=@"
     "ciBackLink" : "$CI_BACKLINK",
     "attachRules" : {
     "entityIds": [
-      "buynnapi"
+      "SERVICE-50E14E4107AB71E3"
     ],
             "tagRule" : [
                 {
